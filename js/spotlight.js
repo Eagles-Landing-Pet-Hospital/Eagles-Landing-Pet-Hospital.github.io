@@ -51,7 +51,7 @@ function spotlight_shay() {
 document.getElementById('spotlight_img').innerHTML = 
 '<img src="resources/pics/spotlight_shay.png" width="400" height="250">'
 document.getElementById('spotlight').innerHTML = 
-'<h2>Shay Slone</h2><br class="w1024 w640"><p style="font-size:20px;">Shay is a great team-player, part of the glue that keeps the ELPH family running, and so far has been unable to submit a proper biosketch for her about me.</p>
+'<h2>Shay Slone, LVT</h2><br class="w1024 w640"><p style="font-size:20px;">Shay is a great team-player, part of the glue that keeps the ELPH family running, and so far has been unable to submit a proper biosketch for her about me.</p>
 }
 
 function spotlight_erika() {
@@ -59,4 +59,11 @@ document.getElementById('spotlight_img').innerHTML =
 '<img src="resources/pics/spotlight_erika.png" width="400" height="250">'
 document.getElementById('spotlight').innerHTML = 
 '<h2>Erika Squires</h2><br class="w1024 w640"><p style="font-size:20px;">is a great team-player, part of the glue that keeps the ELPH family running, and so far has been unable to submit a proper biosketch for her about me.</p>'
+}
+
+function spotlight_erica() {
+document.getElementById('spotlight_img').innerHTML = 
+'<img src="resources/pics/spotlight_erica.png" width="400" height="250">'
+document.getElementById('spotlight').innerHTML = 
+'<h2>Erica Smith</h2><br class="w1024 w640"><p style="font-size:20px;">is a great team-player, part of the glue that keeps the ELPH family running, and so far has been unable to submit a proper biosketch for her about me.</p>'
 }
