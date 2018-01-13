@@ -67,3 +67,5 @@ document.getElementById('spotlight_img').innerHTML =
 document.getElementById('spotlight').innerHTML = 
 '<h2>Erica Smith</h2><br class="w1024 w640"><p style="font-size:20px;">is a great team-player, part of the glue that keeps the ELPH family running, and so far has been unable to submit a proper biosketch for her about me.</p>'
 }
+
+}
