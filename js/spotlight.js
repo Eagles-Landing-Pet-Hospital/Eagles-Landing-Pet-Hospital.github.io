@@ -46,3 +46,17 @@ document.getElementById('spotlight_img').innerHTML =
 document.getElementById('spotlight').innerHTML = 
 '<h2>Vanessa Smith, LVT</h2><br class="w1024 w640"><p style="font-size:20px;"AAS vet tech | Morehead State University ’16 | In practice 5 years | Pets: dogs Shadow and Diesel<br class="w1024 w640">Vanessa is a wonderful member and licensed technician of the ELPH family. She originates from Indiana and like many of our other technicians has a love for animals. She is currently completing her BS of veterinary technology at MSU. Her major goal is to find herself working with large exotic cats or at a zoo.</p><br class="w1024 w640">'
 }
+
+function spotlight_shay() {
+document.getElementById('spotlight_img').innerHTML = 
+'<img src="resources/pics/spotlight_shay.png" width="400" height="250">'
+document.getElementById('spotlight').innerHTML = 
+'<h2>Shay Slone</h2><br class="w1024 w640"><p style="font-size:20px;">Shay is a great team-player, part of the glue that keeps the ELPH family running, and so far has been unable to submit a proper biosketch for her about me.</p>
+}
+
+function spotlight_erika() {
+document.getElementById('spotlight_img').innerHTML = 
+'<img src="resources/pics/spotlight_erika.png" width="400" height="250">'
+document.getElementById('spotlight').innerHTML = 
+'<h2>Erika Squires</h2><br class="w1024 w640"><p style="font-size:20px;">is a great team-player, part of the glue that keeps the ELPH family running, and so far has been unable to submit a proper biosketch for her about me.</p>'
+}
