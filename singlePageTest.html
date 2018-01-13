@@ -91,31 +91,7 @@ var STYLE_PREFIX = 'wsite';
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
 
 <script type="text/javascript" src="//assets-www1.weebly.com/js/lang/en/stl.js?buildTime=123412341234&"></script>
-<script src="//assets-www1.weebly.com/js/site/main.js?buildTime=123412341234"></script><script type="text/javascript">_W.configDomain = "www1.weebly.com";</script><script>_W.relinquish && _W.relinquish()</script>
-<script type="text/javascript" src="//assets-www1.weebly.com/js/lang/en/stl.js?buildTime=123412341234&"></script><script> _W.themePlugins = {"navpane":{"condense":1024,"forced":1}};</script><script src='//assets-www1.weebly.com/js/site/theme-plugins.js?buildTime=123412341234'></script><script type="text/javascript"><!--
-	
-	
-	(function(jQuery){
-		function initFlyouts(){
-			initPublishedFlyoutMenus(
-				[{"id":"593778652245305331","title":"Home","url":"index.html","target":"","nav_menu":false,"nonclickable":false},{"id":"757688710401438029","title":"Innovation","url":"Innovation.html","target":"","nav_menu":false,"nonclickable":false},{"id":"519042418301242217","title":"About","url":"about.html","target":"","nav_menu":false,"nonclickable":false},{"id":"912478436390806579","title":"Updates","url":"updates.html","target":"","nav_menu":false,"nonclickable":false},{"id":"571530593969771444","title":"Contact","url":"#contact","target":"","nav_menu":false,"nonclickable":false}],
-				"593778652245305331",
-				'',
-				'active',
-				false,
-				{"navigation\/item":"{{!\n\tNOTES:\n\t- an id and the \"wsite-menu-item-wrap\" class are required on the item wrapper\n\t- a \"wsite-menu-item\" class is required on the item link\n\t- an is_current variable is available\n\t- the current link will automagically get an \"active\" id\n}}\n\n<li {{#id}}id=\"{{id}}\"{{\/id}}\n\tclass=\"wsite-menu-item-wrap\"\n\t>\n\t<a {{^nonclickable}}\n\t\t\t\t{{^nav_menu}}\n\t\t\t\t\thref=\"{{url}}\"\n\t\t\t\t{{\/nav_menu}}\n\t\t\t{{\/nonclickable}}\n\t\t{{#target}}target=\"{{target}}\"{{\/target}}\n\t\tclass=\"wsite-menu-item {{#has_children}}subnav-link{{\/has_children}}\"\n\t\t{{#membership_required}}\n\t\t\tdata-membership-required=\"{{.}}\"\n\t\t{{\/membership_required}}\n\t\t{{#has_children}}\n\t\t\tdata-submenu=\"submenu-{{id}}\"\n\t\t{{\/has_children}}\n\t\t>\n\t\t{{{title_html}}}\n\t{{#has_children}}<span class=\"wsite-menu-arrow\"><\/span>{{\/has_children}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>","navigation\/flyout\/list":"{{!\n\tNOTES:\n\t- \"wsite-menu-wrap\" required on submenu wrapper\n\t- \"wsite-menu\" required on submenu element\n}}\n\n<div class=\"wsite-menu-wrap\" style=\"display:none\">\n\t<ul class=\"wsite-menu\" {{#id}}id=\"submenu-{{id}}\"{{\/id}}>\n\t\t{{#children}}{{> navigation\/flyout\/item}}{{\/children}}\n\t<\/ul>\n<\/div>","navigation\/flyout\/item":"{{!\n\tNOTES:\n\t- an id and \"wsite-menu-subitem-wrap\" class are required on the item wrap\n\t- a \"wsite-menu-subitem\" class is required on the item link\n}}\n\n<li {{#id}}id=\"{{id}}\"{{\/id}}\n\tclass=\"wsite-menu-subitem-wrap {{#is_current}}wsite-nav-current{{\/is_current}}\"\n\t>\n\t<a {{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref=\"{{url}}\"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}target=\"{{target}}\"{{\/target}}\n\t\tclass=\"wsite-menu-subitem {{#has_children}}subnav-link{{\/has_children}}\"\n\t\t{{#has_children}}\n\t\t\tdata-submenu=\"submenu-{{id}}\"\n\t\t{{\/has_children}}\n\t\t>\n\t\t<span class=\"wsite-menu-title\">\n\t\t\t{{{title_html}}}\n\t\t<\/span>{{#has_children}}<span class=\"wsite-menu-arrow\">&gt;<\/span>{{\/has_children}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>"},
-				{"hasCustomMinicart":true}
-			)
-		}
-		if (jQuery) {
-			jQuery(document).ready(function() { jQuery(initFlyouts); });
-		}else{
-			if (Prototype.Browser.IE) window.onload = initFlyouts;
-			else document.observe('dom:loaded', initFlyouts);
-		}
-	})(window._W && _W.jQuery)
-//-->
-</script>
+
 		
 		
 	</head>
